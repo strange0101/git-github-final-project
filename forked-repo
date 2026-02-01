@@ -1,0 +1,10 @@
+curl -X POST -H "Authorization: token ********" \
+https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/forks
+
+{
+  "fork": true,
+  "full_name": "strange0101/mcino-Introduction-to-Git-and-GitHub",
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
